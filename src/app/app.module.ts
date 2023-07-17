@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { ErrorComponent } from './error/error.component';
 import { HelloComponent } from './hello/hello.component';
 import { HomeComponent } from './home/home.component';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: ' ', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'hello/:name', component: HelloComponent },
   { path: '**', component: ErrorComponent },
