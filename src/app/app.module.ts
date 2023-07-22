@@ -9,10 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'hello/:name', component: HelloComponent },
-  { path: '**', component: ErrorComponent },
+  // { path: '', component: HomeComponent },
+  // { path: 'home', component: HomeComponent },
+  // { path: 'hello/:name', component: HelloComponent },
+  // { path: '**', component: ErrorComponent },
 ];
 
 @NgModule({
